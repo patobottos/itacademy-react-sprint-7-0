@@ -1,0 +1,73 @@
+body {
+  background-color: #314057;
+}
+
+.App {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px;
+  background-color: #314057;
+  color: #E1E5EA;
+}
+
+.main-container {
+  border: 1px solid #F5F5F5;
+  border-radius: 6px;
+  padding: 3% 5%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.form-title {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.services-list {
+  margin-top: 0.3rem;
+  vertical-align: text-bottom;
+  list-style: none;
+  padding: 0;
+}
+
+.result {
+  margin-top: 1rem;
+}
+
+.services-list, 
+.total {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.services-list li {
+  margin-bottom: 0.5rem;
+}
+
+.services-list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services-list li:last-child {
+  border-top: 1px solid #ccc;
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
+.services-list-item label {
+  vertical-align: text-bottom;
+  margin-left: 0.2rem;
+}
+
+.total {
+  margin-top: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .services-list,
+  .total {
+    width: 90%;
+  }
+}
