@@ -71,3 +71,22 @@ body {
     width: 90%;
   }
 }
+
+.web-details-item{
+  font-size: 0.9rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto auto; 
+  column-gap: 10px;
+  row-gap: 15px;
+  height: 30px;
+  align-items: baseline;
+  justify-items: start;
+}
+
+.web-details-tag {
+  text-align: left;
+  width: 23vw;
+  font-size: 0.9rem;
+}
+
