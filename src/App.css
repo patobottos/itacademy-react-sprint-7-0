@@ -35,9 +35,8 @@ body {
   margin-top: 1rem;
 }
 
-.services-list, 
-.total {
-  width: 50%;
+.services-list {
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -62,7 +61,8 @@ body {
 }
 
 .total {
-  margin-top: 1rem;
+  font-weight: 700;
+  text-align: start;
 }
 
 @media screen and (max-width: 600px) {
